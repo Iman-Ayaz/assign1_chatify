@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="exit">Exit</string>
+    <string name="login_now">Login Now</string>
+    <string name="already_have_an_account">Already Have an account?</string>
+    <string name="icon_and_text_tabs">Icon and Text Tabs</string>
+    <string name="three">Three</string>
+    <string name="two">Two</string>
+    <string name="one">One</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_one">Welcome to One !</string>
+    <string name="welcome_to_two">Welcome to Two</string>
+    <string name="welcome_to_three">Welcome to Three!!</string>
+    <string name="gui_demo_21l_5160">GUI DEMO (21L-5160)</string>
+</resources>

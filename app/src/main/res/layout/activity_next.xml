@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar with back arrow and title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#178F84">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-221dp"
+            android:src="@drawable/back_arrow_ic" />
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gui_demo_21l_5160"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <!-- Tab icons and names -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="#178F84">
+
+        <ImageView
+            android:id="@+id/iconOne"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/heart_ic"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:textSize="16sp"
+            android:layout_marginEnd="20dp"/>
+
+        <ImageView
+            android:id="@+id/iconTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/call_ic"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:textSize="16sp"
+            android:layout_marginEnd="20dp"/>
+
+        <ImageView
+            android:id="@+id/iconThree"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/user_ic"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <!-- FrameLayout for fragments -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+</LinearLayout>
